@@ -1,3 +1,8 @@
-.animals {
+.cartoonCharacters {
   margin: 10px;
+}
+
+.gif-item {
+  float: left;
+  padding: 10px;
 }
