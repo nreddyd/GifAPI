@@ -8,7 +8,7 @@ var cartoonCharacters = [
   "Daffy Duck",
   "Donald Duck",
   "Goofy",
-  "Mogli",
+  "Mogli jungle",
   "Yogi Bear",
   "Winnie-the-Pooh",
   "Superman",
