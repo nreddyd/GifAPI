@@ -1,8 +1,24 @@
 .cartoonCharacters {
   margin: 10px;
+  color: purple;
+  background-color: orange;
 }
 
 .gif-item {
   float: left;
   padding: 10px;
+}
+
+body {
+  background-image: url("../images/giphyBG.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#submit {
+  background-color: green;
+}
+
+p {
+  color: aqua;
 }
