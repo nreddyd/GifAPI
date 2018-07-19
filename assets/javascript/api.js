@@ -8,14 +8,16 @@ var cartoonCharacters = [
   "Daffy Duck",
   "Donald Duck",
   "Goofy",
-  "Mogli jungle",
   "Yogi Bear",
   "Winnie-the-Pooh",
   "Superman",
-  "Olive Oly",
   "Tom Cat",
   "Jerry Mouse",
-  "Sponge Bob"
+  "Sponge Bob",
+  "Peter Griffin",
+  "Porky Pig",
+  "Pink Panther",
+  "Peppa Pig"
 ];
 
 function displaybuttons(cartoonCharacters, classToAdd) {
