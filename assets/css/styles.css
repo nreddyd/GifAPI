@@ -2,8 +2,13 @@
   margin: 10px;
   color: purple;
   background-color: orange;
+  padding: 5px 10px;
+  border-radius: 4px;
 }
 
+.cartoonCharacters:hover {
+  background-color: greenyellow;
+}
 .gif-item {
   float: left;
   padding: 10px;
@@ -16,7 +21,10 @@ body {
 }
 
 #submit {
+  margin-top: 20px;
   background-color: green;
+  padding: 5px 10px;
+  border-radius: 4px;
 }
 
 p {
