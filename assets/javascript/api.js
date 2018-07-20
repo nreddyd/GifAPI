@@ -88,7 +88,15 @@ $(document).on("click", ".gifcartoon", function() {
 });
 
 $("#submit").on("click", function() {
-  var newcharacter = $("#newcharacter").val();
+  var newcharacter = $("#newcharacter")
+    .val()
+    .trim();
+  for (var i = 0; i < cartoonCharacters.length; i++) {
+    if (cartoonCharacters[i] === newcharacter) {
+      alert("The Character button is already present");
+      exit();
+    }
+  }
   cartoonCharacters.push(newcharacter);
   displaybuttons(cartoonCharacters, "cartoonCharacters");
 });
